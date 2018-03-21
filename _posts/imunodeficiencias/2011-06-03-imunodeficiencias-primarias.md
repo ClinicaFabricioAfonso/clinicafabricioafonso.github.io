@@ -1,5 +1,6 @@
 ---
-title: "Imunodeficiências primárias"
+title: Imunodeficiências primárias
+date: 2011-06-03 00:00:00 Z
 ---
 
 As imunodeficiências primárias (IDPs) correspondem a um grupo heterogêneo de doenças que resultam de uma ou mais anormalidades do sistema imunológico aumentando a suscetibilidade a infecções.

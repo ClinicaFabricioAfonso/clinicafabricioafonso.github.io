@@ -1,5 +1,6 @@
 ---
-title: "Entrevista A Tribuna sobre doenças alérgicas respiratórias e inverno"
+title: Entrevista A Tribuna sobre doenças alérgicas respiratórias e inverno
+date: 2016-08-10 00:00:00 Z
 ---
 
 <p>A TRIBUNA - FACEBOOK</p>

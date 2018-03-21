@@ -1,5 +1,6 @@
 ---
-title: "Atendimento multidisciplinar nas doenças alérgicas"
+title: Atendimento multidisciplinar nas doenças alérgicas
+date: 2011-08-12 00:00:00 Z
 ---
 
 Toda doença crônica requer cuidados especiais no que se refere ao controle dos fatores desencadeantes, agravantes das crises de dor, elevação da pressão arterial, aumento da glicemia, crises de falta de ar, inflamação cutânea, entre outros, para o bem estar do paciente.

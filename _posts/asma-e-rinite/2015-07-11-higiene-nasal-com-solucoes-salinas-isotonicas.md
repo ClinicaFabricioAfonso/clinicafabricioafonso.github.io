@@ -1,7 +1,7 @@
 ---
-title: "Higiene nasal com soluções salinas isotônicas"
+title: Higiene nasal com soluções salinas isotônicas
+date: 2015-07-11 00:00:00 Z
 ---
-
 
 Há séculos a utilização de soluções para irrigação nasal vem sendo praticada na Índia, o chamado *Neti Lota*, que consiste na aplicação de solução salina através das narinas com auxílio de uma espécie de chaleira, com a finalidade de higienização local. Atualmente, apesar da aplicação de solução salina para higiene nasal ter poucos dados comprovando a sua eficácia através de metanálises, tem demonstrado ocupar espaço na prática clínica, sendo indicado por especialistas pediatras, otorrinos e alergologistas de forma ampla, como coadjuvante em várias afecções do trato respiratório superior.
 

@@ -1,5 +1,6 @@
 ---
-title: "Carta da Sociedade Brasileira de Alergia e Imunolopatologia"
+title: Carta da Sociedade Brasileira de Alergia e Imunolopatologia
+date: 2013-03-22 00:00:00 Z
 ---
 
 ## Carta enviada à ANVISA

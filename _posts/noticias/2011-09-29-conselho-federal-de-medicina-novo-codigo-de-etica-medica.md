@@ -1,5 +1,6 @@
 ---
-title: "Conselho Federal de Medicina - Código de Ética Médica"
+title: Conselho Federal de Medicina - Código de Ética Médica
+date: 2011-09-29 00:00:00 Z
 ---
 
 <div class="page-content">

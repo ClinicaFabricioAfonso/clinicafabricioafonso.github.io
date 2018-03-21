@@ -1,5 +1,6 @@
 ---
-title: "Alergia na infância - AT Revista - 8 agosto de 2010, pág. 20"
+title: Alergia na infância - AT Revista - 8 agosto de 2010, pág. 20
+date: 2011-08-24 00:00:00 Z
 ---
 
 <strong>MAIS SAUDE</strong> por Adriana Martins

@@ -1,5 +1,6 @@
 ---
-title: "Dermatite de Contato"
+title: Dermatite de Contato
+date: 2011-08-12 00:00:00 Z
 ---
 
 A dermatite de contato é uma inflamação da pele causada pela exposição direta de substâncias do meio ambiente, caracterizada na maioria das vezes por um eczema. A doença é mais freqüente nos adultos do que em crianças. Nas mulheres é mais comum a sensibilização aos cosméticos e ao níquel, e nos homens, a dermatite aparece como doença ocupacional ( relacionado ao trabalho). Pode ser classificada de acordo com a fisiopatogenia (ou seja, pelo mecanismo responsável pelo agravo). São elas:

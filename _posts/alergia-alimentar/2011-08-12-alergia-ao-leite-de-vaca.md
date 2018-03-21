@@ -1,5 +1,6 @@
 ---
-title: "Alergia ao leite de vaca"
+title: Alergia ao leite de vaca
+date: 2011-08-12 00:00:00 Z
 ---
 
 A alergia alimentar acomete preferencialmente crianças, atingindo até 8% das crianças nos primeiros três anos de vida. Entre os adultos, cerca de 2% podem apresentar alergia alimentar. A alergia ao leite de vaca (ALV) é uma das mais comuns alergias alimentares na infância.

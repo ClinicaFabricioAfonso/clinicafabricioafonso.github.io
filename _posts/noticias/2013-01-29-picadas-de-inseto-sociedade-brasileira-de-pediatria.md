@@ -1,5 +1,6 @@
 ---
-title: "Picadas de Inseto- Sociedade Brasileira de Pediatria"
+title: Picadas de Inseto- Sociedade Brasileira de Pediatria
+date: 2013-01-29 00:00:00 Z
 ---
 
 Esta publicaçao é de autoria da Sociedade Brasileira de Pediatria.

@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Sobre
+permalink: "/sobre/"
+layout: page
 menu-title: Sobre
-permalink: /sobre/
 ---
 
 <aside class="page-content wrapper">

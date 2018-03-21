@@ -1,5 +1,6 @@
 ---
-title: "Placar da Alergia: Leite Materno 10 x 0 Leite de Vaca"
+title: 'Placar da Alergia: Leite Materno 10 x 0 Leite de Vaca'
+date: 2011-08-21 00:00:00 Z
 ---
 
 <div class="wrapper" data-grid="center spacing">

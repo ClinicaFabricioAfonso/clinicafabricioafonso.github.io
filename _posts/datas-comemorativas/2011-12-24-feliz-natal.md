@@ -1,7 +1,7 @@
 ---
-title: "Feliz Natal!"
+title: Feliz Natal!
+date: 2011-12-24 00:00:00 Z
 ---
-
 
 <div class="wrapper" data-grid="center spacing">
     <div><img src="http://3.bp.blogspot.com/-RootFIDDKNM/TvY0ggupwZI/AAAAAAAAAF0/iwcHVcFVng4/s1600/imagesCA8RE8SF.jpg" /></div>

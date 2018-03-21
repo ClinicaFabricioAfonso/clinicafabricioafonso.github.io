@@ -1,7 +1,7 @@
 ---
-title: "Adrenalina auto-injetável no Brasil já!!!!"
+title: Adrenalina auto-injetável no Brasil já!!!!
+date: 2015-12-20 00:00:00 Z
 ---
-
 
 Anafilaxia é o nome que se dá a reação alérgica imediata mais temida por médicos e por pacientes alérgicos. É uma reação complexa intensa, muito rápida e potencialmente fatal que se inicia dentro de poucos minutos até 2 horas após o contato do paciente alérgico a determinados alimentos, medicamentos ou venenos de insetos como abelhas, por exemplo.
 

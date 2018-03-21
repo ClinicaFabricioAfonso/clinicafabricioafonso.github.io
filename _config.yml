@@ -1,43 +1,46 @@
+---
 title: Clínica Fabrício Afonso
-description: >
-  Clínica de alergia e imunologia - Atendimentos médicos, exames e procedimentos terapêuticos. Saúde e bem estar para toda família.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://clinicafabricioafonso.com.br" # the base hostname & protocol for your site
+timezone: UTC
+collections:
+  categorias:
+    title: Categorias
+    output: true
+  posts:
+    title: Posts
+    output: true
+  sections:
+    title: Sections
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: blog/:title/
+- scope:
+    path: ''
+    type: categorias
+  values:
+    layout: categoria
+    permalink: blog/:title.html
+description: 'Clínica de alergia e imunologia - Atendimentos médicos, exames e procedimentos
+  terapêuticos. Saúde e bem estar para toda família.
 
-# Build settings
+'
+baseurl: ''
+url: http://clinicafabricioafonso.com.br
 markdown: kramdown
-
 paginate: 10
-paginate_path: /blog/:num/
-
+paginate_path: "/blog/:num/"
 exclude:
-  - gulpfile.js
-  - pagegen.yml
-
+- gulpfile.js
+- pagegen.yml
 sass:
   style: compressed
-
 gems:
-  - jekyll-coffeescript
-  - jekyll-paginate
-
-collections:
-  sections:
-    output: false
-  categorias:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      permalink: blog/:title/
-  - scope:
-      path: ""
-      type: categorias
-    values:
-      layout: categoria
-      permalink: blog/:title.html
-
+- jekyll-coffeescript
+- jekyll-paginate

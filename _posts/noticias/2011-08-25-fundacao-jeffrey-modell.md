@@ -1,5 +1,6 @@
 ---
-title: "Fundação Jeffrey Modell - IMUNODEFICIÊNCIAS PRIMÁRIAS"
+title: Fundação Jeffrey Modell - IMUNODEFICIÊNCIAS PRIMÁRIAS
+date: 2011-08-25 00:00:00 Z
 ---
 
 Centro Jeffrey Modell do Brasil completa dois anos de atividades

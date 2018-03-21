@@ -1,5 +1,6 @@
 ---
-title: "Alergia Alimentar - Reação alérgica ao camarão"
+title: Alergia Alimentar - Reação alérgica ao camarão
+date: 2011-12-22 00:00:00 Z
 ---
 
 <div data-grid="center spacing">
