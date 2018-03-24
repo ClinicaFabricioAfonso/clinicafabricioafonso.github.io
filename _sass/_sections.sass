@@ -8,13 +8,20 @@
             max-width: $content-width / 2
     
     &instagram
+        [instagram-url]
+            &.wrapper
+                +media-greater($on-laptop)
+                    padding: $spacing-unit - $spacing-unit / 4
+                +media-greater($content-width)
+                    padding: 5px
         [instagram-item]
-            padding: $spacing-unit / 4
             margin: auto
             width: 20%
             img
                 display: block
                 margin: auto
+            +media-greater($on-laptop)
+                padding: $spacing-unit / 4
             
     &links
         background-color: #8fb5da
