@@ -1,6 +1,9 @@
 
-<header class="wrapper post-header">
-    <h3><a href="https://www.instagram.com/drfabricioafonso/" target="_blank">@drfabricioafonso no Instagram</a></h3>
+<header class="wrapper">
+    <h3 class="icon-colored inline">
+        {% include svg/instagram.svg %}
+        <a href="https://www.instagram.com/drfabricioafonso/" target="_blank">@drfabricioafonso no Instagram</a>
+    </h3>
 </header>
 
 <div data-grid="row wrap center" instagram-url="http://server.clinicafabricioafonso.com.br/instagram.php">
@@ -10,3 +13,13 @@
 </div>
 
 <script src="{{ site.baseurl }}/js/instagram.js"></script>
+
+<footer class="wrapper">
+    <p data-grid="end">
+        <small data-cell="shrink">Siga o 
+            <a href="https://www.instagram.com/drfabricioafonso/" target="_blank">Dr. Fabrício Afonso</a> 
+        no 
+            <span class="icon-colored inline">{% include svg/instagram.svg %}</span> 
+        Instagram.</small>
+    </p>
+</footer>

@@ -155,23 +155,23 @@ pre
     +media-query($on-palm)
         padding: $spacing-unit / 4
 
-.icon 
-
+.icon, .icon-colored
     > svg 
         display: inline-block
         width: 16px
         height: 16px
         vertical-align: middle
-        color: inherit
 
-        path, circ, rect, polygon
-            fill: currentcolor
     &.inline
-
         > svg
             width: 1em
             height: 1em
-            vertical-align: text-top
+
+.icon
+    > svg
+        color: inherit
+        path, circ, rect, polygon
+            fill: currentcolor
 
 .svg-container
     svg
