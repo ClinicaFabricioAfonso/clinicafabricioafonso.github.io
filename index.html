@@ -1,11 +1,17 @@
 ---
 layout: default
+sections:
+- name: intro
+- name: blog
+- name: links
+  class: hero
+- name: local
 ---
 
-{% for section in site.sections %}
+{% for section in page.sections %}
 
 <section class="page-content section-{{ section.name }} {% if section.class %}{{ section.class }}{% endif %}" id="{{ section.name }}">
-  {{ section.content }}
+  {% include sections/{{ section.name }}.html %}
 </section>
 
 {% endfor %}
