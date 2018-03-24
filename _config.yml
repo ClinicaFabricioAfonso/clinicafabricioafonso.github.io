@@ -41,6 +41,6 @@ exclude:
 - pagegen.yml
 sass:
   style: compressed
-gems:
+plugins:
 - jekyll-coffeescript
 - jekyll-paginate
