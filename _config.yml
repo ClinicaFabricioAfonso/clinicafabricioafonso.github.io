@@ -28,7 +28,7 @@ description: 'Clínica de alergia e imunologia - Atendimentos médicos, exames e
   terapêuticos. Saúde e bem estar para toda família.
 
 '
-baseurl: ''
+baseurl: 
 url: http://clinicafabricioafonso.com.br
 markdown: kramdown
 paginate: 10
