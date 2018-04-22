@@ -14,6 +14,11 @@ collections:
 defaults:
 - scope:
     path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
     type: posts
   values:
     layout: post
@@ -33,6 +38,7 @@ url: http://clinicafabricioafonso.com.br
 markdown: kramdown
 paginate: 10
 paginate_path: "/blog/:num/"
+permalink: ':preety/'
 exclude:
 - gulpfile.js
 - pagegen.yml
