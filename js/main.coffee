@@ -80,10 +80,11 @@ if slider.container
 links = _ $ '[href^="#"]'
 links.forEach (link) ->
 	return unless selector = link.hash
-	if section = $(selector)[0]
-		link.addEventListener 'click', (e) ->
-			e.preventDefault()
-			scrollToTarget selector
+	section = $(selector)[0]
+	return if not section or section.hasAttribute 'data-modal'
+	link.addEventListener 'click', (e) ->
+		e.preventDefault()
+		scrollToTarget selector
 
 scrollToTarget = (target) ->
 	scrollTarget = $(target)[0].offsetTop

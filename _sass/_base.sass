@@ -57,10 +57,20 @@ h1, h2, h3, h4, h5, h6
     font-family: $title-font-family
     font-weight: $base-font-weight
 
+%transition
+    -webkit-backface-visibility: hidden
+    backface-visibility: hidden
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    -webkit-transform-style: preserve-3d
+    transform-style: preserve-3d
+    -webkit-transition: .3s ease-in-out
+    transition: .3s ease-in-out
+
 a
+    @extend %transition
     color: $hero
     text-decoration: none
-    transition: .3s ease-in-out
 
     &:visited, &:hover, &:focus, &:active
         text-decoration: underline
