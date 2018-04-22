@@ -14,7 +14,7 @@
     bottom: 0
     z-index: -999
     padding: $spacing-unit / 2
-    background-color: rgba(black, .5)
+    background-color: rgba(black, .7)
     opacity: 0
     pointer-events: none
 
@@ -23,8 +23,19 @@
         opacity: 1
         pointer-events: initial
 
+        [data-modal-content]
+            opacity: 1
+            -webkit-transform: translateY(0)
+            transform: translateY(0)
+            -webkit-transition-delay: .15s
+            transition-delay: .15s
+
     +child(content)
+        @extend %transition
         @extend %modal-content
+        opacity: 0
+        -webkit-transform: translateY(-100%)
+        transform: translateY(-100%)
 
     +child(frame)
         @extend %modal-content
