@@ -1,4 +1,6 @@
 %form-basis
+    -webkit-appearance: none
+    -moz-appearance: none
     padding: 10px
     border: 1px solid $grey-color-light
     border-radius: 4px
@@ -52,6 +54,10 @@ input
         @extend %form-basis
         @extend %form-inputs
 
+select
+    @extend %form-basis
+    @extend %form-inputs
+
 textarea
     @extend %form-basis
     @extend %form-inputs
@@ -77,7 +83,10 @@ textarea
 .honeypot
     display: none
 
-button
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
     @extend %form-basis
     padding-left: 2em
     padding-right: 2em
