@@ -18,8 +18,8 @@ title: Teste de formulário de agendamento embutido
 </div>
 
 
-<div class="wrapper" data-modal data-grid="row center" id="agendar-com-visual">
-<form name="SelecionaDia" method="POST" action="SelecionaHoraControl.asp" data-modal-content>
+<div data-modal data-grid="row center" id="agendar-com-visual">
+<form class="wrapper" name="SelecionaDia" method="POST" action="SelecionaHoraControl.asp" data-modal-content>
     <input type="hidden" id="medico_id" name="medico_id" value="63">
     <input type="hidden" id="data_agenda" name="data_agenda" value="26/6/2018">
     <input type="hidden" id="tab_consultorio_id" name="tab_consultorio_id" value="5">
@@ -27,170 +27,148 @@ title: Teste de formulário de agendamento embutido
     <input type="hidden" id="hora" name="hora" value="">
     <input type="hidden" id="ano" name="ano" value="2018">
     <input type="hidden" id="mes_id" name="mes_id" value="6">
-
-    <table>
-        <tbody>
-            <tr>
-                <td>Médico:</td>
-                <td>Dr. Nelson</td>
-            </tr>
-            <tr>
-                <td>Especialidade:</td>
-                <td>HEMATO</td>
-            </tr>
-            <tr>
-                <td>Data da consulta:</td>
-                <td>26/6/2018</td>
-            </tr>
-            <tr>
-                <td>Nome:</td>
-                <td>
-                    <input type="text" id="nome" name="nome" size="50" maxlength="50">
-                </td>
-            </tr>
-            <tr>
-                <td>Telefone:</td>
-                <td>
-                    <input type="text" id="telefone" name="telefone" size="13" maxlength="13">
-                </td>
-            </tr>
-            <tr>
-                <td>E-Mail:</td>
-                <td>
-                    <input type="text" id="email" name="email" size="70" maxlength="100">
-                </td>
-            </tr>
-            <tr>
-                <td>Convênio:</td>
-                <td>
-                    <select name="convenio_id" id="convenio_id" onchange="recuperarInfo(this.value)">
-                        <option value="0"></option>
-                        <option value="210">AMIL</option>
-                        <option value="211">PREVENT SENIOR</option>
-                        <option value="352">TESTE</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>Plano:</td>
-                <td>
-                    <div id="divPlano">
-                        <select name="plano_id" id="plano_id" style="width:150px">
+    
+    <div data-grid="spacing">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Médico:</td>
+                    <td>Dr. Nelson</td>
+                </tr>
+                <tr>
+                    <td>Especialidade:</td>
+                    <td>HEMATO</td>
+                </tr>
+                <tr>
+                    <td>Data da consulta:</td>
+                    <td>26/6/2018</td>
+                </tr>
+                <tr>
+                    <td>Nome:</td>
+                    <td>
+                        <input type="text" id="nome" name="nome" size="50" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telefone:</td>
+                    <td>
+                        <input type="text" id="telefone" name="telefone" size="13" maxlength="13">
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-Mail:</td>
+                    <td>
+                        <input type="text" id="email" name="email" size="70" maxlength="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Convênio:</td>
+                    <td>
+                        <select name="convenio_id" id="convenio_id" onchange="recuperarInfo(this.value)">
                             <option value="0"></option>
+                            <option value="210">AMIL</option>
+                            <option value="211">PREVENT SENIOR</option>
+                            <option value="352">TESTE</option>
                         </select>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
-    <br>
-    <table>
-        <tbody>
-            <tr>
-                <td align="center">Horário disponível</td>
-            </tr>
-            <tr>
-                <td align="center">Selecione a hora para consulta</td>
-            </tr>
-        </tbody>
-    </table>
-    <table>
-        <tbody>
-            <tr class="cor1" align="center">
-                <td colspan="2">
-                    <b>HORARIO DISPONÍVEL</b>
-                </td>
-            </tr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Plano:</td>
+                    <td>
+                        <div id="divPlano">
+                            <select name="plano_id" id="plano_id" style="width:150px">
+                                <option value="0"></option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
-            <tr class="cor2">
-                <td align="center" style="color: #0000FF;">09:00</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('09:00')">
-                </td>
-            </tr>
+        <div data-cell="1of2">
+            <p>HORARIO</p>
+            <section data-grid="cols-2">
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="08:00" onclick="valida('08:00')">
+                        <span>08:00</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="08:15" onclick="valida('08:15')">
+                        <span>08:15</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="08:30" onclick="valida('08:30')">
+                        <span>08:30</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="08:45" onclick="valida('08:45')">
+                        <span>08:45</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="09:00" onclick="valida('09:00')">
+                        <span>09:00</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="09:15" onclick="valida('09:15')">
+                        <span>09:15</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="09:30" onclick="valida('09:30')">
+                        <span>09:30</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="09:45" onclick="valida('09:45')">
+                        <span>09:30</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="10:00" onclick="valida('10:00')">
+                        <span>10:00</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="10:15" onclick="valida('10:00')">
+                        <span>10:15</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="10:30" onclick="valida('10:00')">
+                        <span>10:30</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="horario" value="10:45" onclick="valida('10:00')">
+                        <span>10:30</span>
+                    </label>
+                </p>
+            </section>
+        </div>
+    </div>
 
-            <tr class="cor1">
-                <td align="center" style="color: #0000FF;">09:15</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('09:15')">
-                </td>
-            </tr>
-
-            <tr class="cor2">
-                <td align="center" style="color: #0000FF;">09:30</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('09:30')">
-                </td>
-            </tr>
-
-            <tr class="cor1">
-                <td align="center" style="color: #0000FF;">09:45</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('09:45')">
-                </td>
-            </tr>
-
-            <tr class="cor2">
-                <td align="center" style="color: #0000FF;">10:00</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('10:00')">
-                </td>
-            </tr>
-
-            <tr class="cor1">
-                <td align="center" style="color: #0000FF;">10:15</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('10:15')">
-                </td>
-            </tr>
-
-            <tr class="cor2">
-                <td align="center" style="color: #0000FF;">10:30</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('10:30')">
-                </td>
-            </tr>
-
-            <tr class="cor1">
-                <td align="center" style="color: #0000FF;">10:45</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('10:45')">
-                </td>
-            </tr>
-
-            <tr class="cor2">
-                <td align="center" style="color: #0000FF;">11:00</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('11:00')">
-                </td>
-            </tr>
-
-            <tr class="cor1">
-                <td align="center" style="color: #0000FF;">11:15</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('11:15')">
-                </td>
-            </tr>
-
-            <tr class="cor2">
-                <td align="center" style="color: #0000FF;">11:30</td>
-                <td align="center">
-                    <input type="button" value="Ok" onclick="valida('11:30')">
-                </td>
-            </tr>
-
-        </tbody>
-    </table>
-    <table cellpadding="0" width="500" cellspacing="0" border="0" class="TableConteudo">
-        <tbody>
-            <tr>
-                <td align="center" valign="center">
-                    <input type="button" value="Volta" class="Bt" onclick="volta()">
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <footer>
+        <p>
+            <input type="button" value="Volta" class="Bt" onclick="volta()">
+        </p>
+    </footer>
 
 </form>
 
