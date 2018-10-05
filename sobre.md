@@ -1,8 +1,8 @@
 ---
 title: Sobre
+position: 1
 layout: page
 menu-title: Sobre
-position: 1
 ---
 
 <aside class="page-content wrapper">
