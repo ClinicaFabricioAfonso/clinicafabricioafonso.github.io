@@ -47,3 +47,8 @@ sass:
 plugins:
 - jekyll-coffeescript
 - jekyll-paginate
+endereco: Av. Dr. Bernardino de Campos, 141 <br>Santos - SP
+telefones:
+- "(13) 3301-9401"
+- "(13) 3233-9401"
+- "(13) 9 7414-4844"
