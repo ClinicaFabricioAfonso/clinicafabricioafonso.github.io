@@ -15,8 +15,9 @@
 
       <div class="trigger">
         <a class="page-link" href="{{ site.baseurl }}/">Início</a>
-        <a class="page-link" href="{{ site.baseurl }}/blog">Blog</a>
-        {% for my_page in site.pages %}
+        <a class="page-link" href="{{ site.baseurl }}/blog/">Blog</a>
+        {% assign page_links = site.pages | sort: 'position' %}
+        {% for my_page in page_links %}
           {% if my_page.menu-title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menu-title }}</a>
           {% endif %}

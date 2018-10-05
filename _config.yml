@@ -22,13 +22,13 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: 'blog/:title/'
+    permalink: blog/:title/
 - scope:
     path: ''
     type: categorias
   values:
     layout: categoria
-    permalink: 'blog/:title.html'
+    permalink: blog/:title.html
 description: 'Clínica de alergia e imunologia - Atendimentos médicos, exames e procedimentos
   terapêuticos. Saúde e bem estar para toda família.
 
@@ -37,8 +37,8 @@ baseurl:
 url: http://clinicafabricioafonso.com.br
 markdown: kramdown
 paginate: 10
-paginate_path: "/blog/:num/"
-permalink: ':preety/'
+paginate_path: blog/:num/
+permalink: preety/
 exclude:
 - gulpfile.js
 - pagegen.yml
