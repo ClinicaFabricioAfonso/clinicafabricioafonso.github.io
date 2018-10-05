@@ -6,9 +6,15 @@
       <div data-cell>
 
         <img class="site-footer-logo" src="/img/logo-fabricio-afonso.png" alt="Clínica Fabrício Afonso">
-        <p>Av. Dr. Bernardino de Campos, 141<br>
-        Santos - SP</p>
-        <p>Tels.: (13) 3301-9401 / 3233-9401</p>
+        <p>{{ site.endereco }}</p>
+        <p>Telefones:</p>
+        <ul class="seamless">
+          {% for tel in site.telefones %}
+            <li>
+              {{ tel }}
+            </li>
+          {% endfor %}
+        </ul>
 
         {% comment %} <p>
           <a href="#agendar-consulta" data-btn>Agendar consulta</a>
