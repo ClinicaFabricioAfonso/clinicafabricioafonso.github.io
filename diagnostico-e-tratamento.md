@@ -1,6 +1,6 @@
 ---
 title: Diagnóstico e Tratamento
-position: 2
+position: 0
 layout: page
 menu-title: Diagnóstico e Tratamento
 ---
