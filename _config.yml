@@ -39,9 +39,6 @@ markdown: kramdown
 paginate: 10
 paginate_path: blog/:num/
 permalink: preety/
-exclude:
-- gulpfile.js
-- pagegen.yml
 sass:
   style: compressed
 plugins:
@@ -52,3 +49,10 @@ telefones:
 - "(13) 3301-9401"
 - "(13) 3233-9401"
 - "(13) 9 7414-4844"
+exclude:
+- gulpfile.js
+- pagegen.yml
+- CNAME
+- Gemfile
+- Gemfile.lock
+- package.json

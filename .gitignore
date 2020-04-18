@@ -2,4 +2,5 @@ _site
 _server/.vscode
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 desktop.ini
