@@ -1,8 +1,8 @@
 ---
 title: Diagnóstico e Tratamento
 position: 0
-layout: page
 menu-title: Diagnóstico e Tratamento
+layout: page
 ---
 
 ## Prick test ou teste cutâneo de leitura imediata
@@ -28,7 +28,7 @@ menu-title: Diagnóstico e Tratamento
         alt="Patch test ou teste cutâneo de leitura tardia">
     </aside>
     <p data-cell="1of2">
-      Este exame permite a identificação de substâncias utilizadas na composição de produtos industrializados que podem, potencialmente, causar dermatites de contato alérgicas. Há diversas baterias para teste:  padrão, cosméticos, regional, série unhas, série capilar, série corticóides. Devem ser avaliados em conjunto com a história clínica para o diagnóstico e conduta apropriados. O teste é desenvolvido em 3 dias de visita ao consultório.
+      Este exame permite a identificação de substâncias utilizadas na composição de produtos industrializados que podem, potencialmente, causar dermatites de contato alérgicas. Há diversas baterias para teste:  padrão, cosméticos, regional, série unhas, série capilar, série corticoides. Devem ser avaliados em conjunto com a história clínica para o diagnóstico e conduta apropriados. O teste é desenvolvido em 3 dias de visita ao consultório.
     </p>
   </div>
 </div>
