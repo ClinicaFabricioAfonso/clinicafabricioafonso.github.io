@@ -3,4 +3,4 @@ _server/.vscode
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
-desktop.ini
+Gemfile.lock
