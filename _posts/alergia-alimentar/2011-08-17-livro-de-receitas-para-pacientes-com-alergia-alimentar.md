@@ -1,6 +1,8 @@
 ---
 title: Livro de receitas para pacientes com alergia alimentar - Instituto Girassol
 date: 2011-08-17 00:00:00 Z
+categories:
+  - Alergia alimentar
 ---
 
 [![Receitas culinárias para crianças com alergia alimentar](http://www.girassolinstituto.org.br/site/templates/girassol/banner/banner_002.jpg)](http://www.girassolinstituto.org.br/site/index.php/component/content/article/8-conteudo-publico/537-nossos-materiais)

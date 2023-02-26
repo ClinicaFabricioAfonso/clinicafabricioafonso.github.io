@@ -1,6 +1,8 @@
 ---
 title: Imunoterapia alergeno específica
 date: 2011-08-14 00:00:00 Z
+categories:
+  - Asma e rinite
 ---
 
 A Imunoterapia alergeno específica, popularmente conhecida como "vacinas para alergia" é recomendada por &nbsp;alergologistas, sendo considerada a única medida capaz de modificar o curso natural das doenças alérgicas às quais atualmente se aplica (asma e rinite, com comprovação de alergia através dos testes cutâneos e/ou exames de sangue). Portanto, há indicações precisas de Imunoterapia que devem ser seguidas, além disso o Conselho Federal de Medicina estabeleceu normas para a utilização dos extratos. Segue a publicação no Diário Oficial da Uniao, de 2006.

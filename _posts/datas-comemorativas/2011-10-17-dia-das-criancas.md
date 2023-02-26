@@ -1,6 +1,8 @@
 ---
 title: Dia das Crianças
 date: 2011-10-17 00:00:00 Z
+categories:
+  - Datas comemorativas
 ---
 
 Conta certa lenda, que estavam duas crianças patinando num lago congelado. Era uma tarde nublada e fria, e as crianças brincavam despreocupadas. De repente, o gelo quebrou e uma delas caiu, ficando presa na fenda que se formou.

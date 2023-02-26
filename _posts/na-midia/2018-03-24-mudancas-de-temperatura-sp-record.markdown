@@ -1,7 +1,8 @@
 ---
 title: Mudanças de temperatura - SP Record
 date: 2018-03-24 17:40:00 Z
-categoria: Na mídia
+categories:
+  - Na mídia
 ---
 
 Na época do verão em que a temperatura pode chegar a 40°, é difícil ignorar o alívio que é deixar o sol quente da rua e entrar em um ambiente com ar-condicionado. Mas a mudança brusca de temperatura traz vários problemas para a nossa saúde, como obstrução nasal, rouquidão e até sinusite.

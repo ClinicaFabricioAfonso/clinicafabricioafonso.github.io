@@ -1,6 +1,8 @@
 ---
 title: Dermatite Atópica
 date: 2011-08-12 00:00:00 Z
+categories:
+  - Pele
 ---
 
 A Dermatite Atópica (DA) é uma doença de caráter crônico e recidivante, clinicamente caracterizada por lesão pruriginosa (coceira), descamativa, de distribuição clínica peculiar e variável de acordo com a idade do paciente, sendo considerada o componente cutâneo do Complexo Atópico ( asma, rinite alérgica, alergia alimentar e DA).

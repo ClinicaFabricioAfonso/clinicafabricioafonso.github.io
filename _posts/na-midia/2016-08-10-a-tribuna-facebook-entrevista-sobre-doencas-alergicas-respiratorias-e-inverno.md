@@ -1,6 +1,8 @@
 ---
 title: Entrevista A Tribuna sobre doenças alérgicas respiratórias e inverno
 date: 2016-08-09 21:00:00 -03:00
+categories:
+  - Na mídia
 ---
 
 <p>A TRIBUNA - FACEBOOK </p>

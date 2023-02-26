@@ -1,6 +1,8 @@
 ---
 title: FESTAS - Instituto Girassol para pacientes com alergia alimentar
 date: 2011-08-28 00:00:00 Z
+categories:
+  - Alergia alimentar
 ---
 
 <div class="page-content">

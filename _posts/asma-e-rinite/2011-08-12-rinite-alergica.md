@@ -1,6 +1,8 @@
 ---
 title: Rinite alérgica
 date: 2011-08-12 00:00:00 Z
+categories:
+  - Asma e rinite
 ---
 
 A rinite alérgica é uma inflamação tecidual que acomete o nariz e estruturas adjacentes, decorrente da exposição a alérgenos. É caracterizada, clinicamente, por um ou mais dos seguintes sintomas: rinorréia (coriza), espirros em salva, prurido (coceira) e congestão nasal.

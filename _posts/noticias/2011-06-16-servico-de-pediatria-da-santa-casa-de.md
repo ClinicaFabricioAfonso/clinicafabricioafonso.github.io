@@ -1,6 +1,8 @@
 ---
 title: Serviço de Pediatria da Santa Casa de Misericórdia de Santos
 date: 2011-06-16 00:00:00 Z
+categories:
+  - Notícias
 ---
 
 É a especialidade da Medicina dedicada ao cuidado da saúde de crianças, adolescentes e pré-adolescentes. 

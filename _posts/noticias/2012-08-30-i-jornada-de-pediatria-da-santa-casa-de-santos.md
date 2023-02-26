@@ -1,6 +1,8 @@
 ---
 title: I Jornada de Pediatria da Santa Casa de Santos
 date: 2012-08-30 00:00:00 Z
+categories:
+  - Notícias
 ---
 
 Informações no telefone 3202-0600- Centro de Estudos (ramais 450 e 750)

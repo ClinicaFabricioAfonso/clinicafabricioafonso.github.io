@@ -1,6 +1,8 @@
 ---
 title: Entrevista com Mônica de Lima Azevedo - Programa Arte de Viver
 date: 2016-05-21 00:00:00 Z
+categories:
+  - Na mídia
 ---
 
 Entrevista sobre aspectos gerais em alergia e reação a medicamentos.

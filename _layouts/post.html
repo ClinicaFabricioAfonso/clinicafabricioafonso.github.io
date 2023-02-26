@@ -2,20 +2,14 @@
 layout: default
 ---
 
-{% assign post_categoria = page.path | remove: '_posts/' | split: '/' | first %}
-{% for c in site.categorias %}
-	{% assign c_id = c.id | split: '/' | last %}
-	{% if post_categoria == c_id %}
-		{% assign categoria = c %}
-	{% endif %}
-{% endfor %}
-
 <article class="page-content post" itemscope itemtype="http://schema.org/BlogPosting">
 
 	<header class="wrapper post-header">
 		<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
 		<p class="post-meta">
-			<a href="{{ site.baseurl }}{{ categoria.url }}">{{ categoria.title | upcase }}</a>
+			{% for c in page.categories %}
+				{% include link-categoria.html categoria = c %}
+			{% endfor %}
 			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d/%m/%Y" }}</time>
 			{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
 		</p>

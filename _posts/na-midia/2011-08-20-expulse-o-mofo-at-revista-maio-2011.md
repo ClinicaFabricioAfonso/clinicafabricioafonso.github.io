@@ -1,6 +1,8 @@
 ---
 title: Expulse o mofo
 date: 2011-08-20 00:00:00 Z
+categories:
+  - Na mídia
 ---
 
 <div class="page-content">

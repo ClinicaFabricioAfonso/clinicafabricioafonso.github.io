@@ -1,6 +1,8 @@
 ---
 title: Alergia Alimentar - Reação alérgica ao camarão
 date: 2011-12-22 00:00:00 Z
+categories:
+  - Na mídia
 ---
 
 <div data-grid="center spacing">

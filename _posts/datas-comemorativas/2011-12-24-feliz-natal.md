@@ -1,6 +1,8 @@
 ---
 title: Feliz Natal!
 date: 2011-12-24 00:00:00 Z
+categories:
+  - Datas comemorativas
 ---
 
 <div class="wrapper" data-grid="center spacing">

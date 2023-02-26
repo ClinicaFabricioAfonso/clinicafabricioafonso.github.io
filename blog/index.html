@@ -15,7 +15,14 @@ layout: page
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
+          <small>
+            {% for c in post.categories %}
+              {% include link-categoria.html categoria = c %}
+            {% endfor %}
+          </small>
+
           <small class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</small>
+
           {% if post.excerpt %}
             <p>
               {{ post.excerpt | prepend: site.baseurl | strip_html | strip_newlines | truncatewords: 25, '...' }}

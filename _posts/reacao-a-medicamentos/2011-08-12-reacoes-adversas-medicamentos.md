@@ -1,6 +1,8 @@
 ---
 title: Reações adversas a medicamentos
 date: 2011-08-12 00:00:00 Z
+categories:
+  - Reações a medicamentos
 ---
 
 As reações adversas a medicamentos (RAM) são eventos comuns, atingindo cerca de 7% da população. Há de fato, grande impacto na prática clínica pela morbidade e mortalidade. Este tema é bastante atual e importante pelo surgimento de novas drogas e potencial risco de novas reações. Os antibióticos <span lang="EL">β</span> - lactâmicos e os antiinflamatórios não esteróides - AINES são o grupo de medicamentos mais comumente envolvidos em RAM. Vale ressaltar que um único fármaco pode dar origem a diversas manifestações clínicas. O órgão mais frequentemente acometido é a pele, e as erupções morbiliformes e as urticárias são as formas mais comuns de lesões desencadeadas por medicamentos. Ainda na pele outras mainfestações podem ocorrer como: dermatite de contato, fotodermatite, erupção fixa por drogas, vasculites, reações citotóxicas, doença do soro, dermatite esfoliativa e farmacodermias graves. A Necrólise Epidérmica tóxica, a síndrome de Stevens-Johnson e a DRESS são apresentações mais graves e tem menor incidência, mas as deixaremos para outra oportunidade.

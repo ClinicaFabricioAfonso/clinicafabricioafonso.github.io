@@ -17,14 +17,14 @@
           "type": "datetime"
         },
         {
-          "title": "Categoria",
-          "name": "categoria",
-          "type": "string"
-        },
-        {
           "title": "Description",
           "name": "excerpt",
           "type": "string"
+        },
+        {
+          "title": "Categorias",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     }
@@ -38,7 +38,17 @@
     }
   ],
   "frontMatter.taxonomy.tags": [],
-  "frontMatter.taxonomy.categories": [],
+  "frontMatter.taxonomy.categories": [
+    "Alergia alimentar",
+    "Asma e rinite",
+    "Datas comemorativas",
+    "Imunodeficiências",
+    "Na mídia",
+    "Notícias",
+    "Orientações gerais",
+    "Pele",
+    "Reações a medicamentos"
+  ],
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "bundle exec jekyll s w"
 }

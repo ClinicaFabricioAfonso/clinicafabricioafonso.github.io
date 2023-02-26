@@ -2,12 +2,10 @@
 layout: default
 ---
 
-{% assign categoria = page.id | split: '/' | last %}
-
 <section class="page-content">
 
   <header class="wrapper post-header">
-    <h1 class="post-title"><small>BLOG/</small> {{ page.title }}</h1>
+    <h1 class="post-title"><small>Blog /</small> {{ page.title }}</h1>
   </header>
 
   <div class="post-content">
@@ -19,8 +17,7 @@ layout: default
 
   <div class="wrapper">
     <ul class="post-list" data-grid="cols-2 spacing">
-      {% for post in site.posts %}{% assign post_categoria = post.path | remove: '_posts/' | split: '/' | first %}
-      {% if post_categoria == categoria %}
+      {% for post in site.categories[page.title] %}
         <li data-cell>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -33,7 +30,6 @@ layout: default
             </p>
           {% endif %}
         </li>
-      {% endif %}
       {% endfor %}
     </ul>
 

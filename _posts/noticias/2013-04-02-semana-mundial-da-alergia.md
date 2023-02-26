@@ -1,6 +1,8 @@
 ---
 title: Semana Mundial da Alergia
 date: 2013-04-02 00:00:00 Z
+categories:
+  - Notícias
 ---
 
 O seguinte documento é de autoria da Associação Brasileira de Alergia e Imunopatologia

@@ -1,6 +1,8 @@
 ---
 title: Controle ambiental nas doenças alérgicas
 date: 2011-08-12 00:00:00 Z
+categories:
+  - Orientações gerais
 ---
 
 Quando pensamos em doenças crônicas (aquelas de longa duração), devemos lembrar que muitos fatores ambientais como clima, alimentação e hábitos individuais podem interferir no curso dessas doenças, e grande parte das vezes, agravando - as. Costumo sempre comparar pacientes com problemas alérgicos, como asma e rinite, a portadores de uma doença muito conhecida, o diabetes.

@@ -1,6 +1,8 @@
 ---
 title: Pesquisa sobre hidratantes
 date: 2011-06-10 00:00:00 Z
+categories:
+  - Pele
 ---
 
 Acesse e contribua com sua opinião para a pesquisa sobre o uso de hidratantes na dermatite atópica:

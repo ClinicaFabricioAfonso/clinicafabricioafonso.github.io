@@ -1,0 +1,7 @@
+{% for c in site.categorias %}
+  {% if c.title == include.categoria %}
+    {% assign categoria = c %}
+  {% endif %}
+{% endfor %}
+
+<a href="{{ site.baseurl }}{{ categoria.url }}">{{ categoria.title }}</a>
