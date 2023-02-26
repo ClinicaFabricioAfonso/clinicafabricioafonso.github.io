@@ -5,6 +5,7 @@ categories:
   - Na mídia
 ---
 
-<p>A TRIBUNA - FACEBOOK </p>
+A TRIBUNA - FACEBOOK
 
-<p>Entrevista sobre doenças respiratórias alérgicas e inverno. <a href="https://www.facebook.com/183175528378848/videos/1395323177164071/">Ver no Facebook</a></p>
+Entrevista sobre doenças respiratórias alérgicas e inverno.
+[Ver no Facebook](https://www.facebook.com/183175528378848/videos/1395323177164071/){: target="blank"}
