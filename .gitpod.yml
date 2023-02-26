@@ -1,6 +1,6 @@
 
 tasks:
-  - init: npm install && bundle install
+  - before: npm install && bundle install
     command: npm start
 
 vscode:
