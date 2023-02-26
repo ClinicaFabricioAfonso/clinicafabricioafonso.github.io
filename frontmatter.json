@@ -55,5 +55,8 @@
     }
   ],
   "frontMatter.taxonomy.tags": [],
-  "frontMatter.taxonomy.categories": []
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.framework.startCommand": "bundle exec jekyll s w"
 }
