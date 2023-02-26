@@ -25,8 +25,8 @@ layout: page
 
           {% if post.excerpt %}
             <p>
-              {{ post.excerpt | prepend: site.baseurl | strip_html | strip_newlines | truncatewords: 25, '...' }}
-              <small><a href="{{ post.url | prepend: site.baseurl }}">Continue lendo...</a></small>
+              {{ post.excerpt | strip_html | strip_newlines | truncatewords: 64, '...' }}
+              <small><a href="{{ post.url | prepend: site.baseurl }}">Continue lendo</a></small>
             </p>
           {% endif %}
         </li>
