@@ -47,7 +47,7 @@
     "Notícias",
     "Orientações gerais",
     "Pele",
-    "Reações a medicamentos"
+    "Reação a medicamentos"
   ],
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "bundle exec jekyll s w"

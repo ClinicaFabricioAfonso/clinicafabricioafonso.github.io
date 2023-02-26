@@ -4,4 +4,8 @@
   {% endif %}
 {% endfor %}
 
-<a href="{{ site.baseurl }}{{ categoria.url }}">{{ categoria.title }}</a>
+{% if categoria %}
+  <a href="{{ site.baseurl }}{{ categoria.url }}">{{ categoria.title }}</a>
+{% else %}
+  {{ include.categoria }}
+{% endif %}

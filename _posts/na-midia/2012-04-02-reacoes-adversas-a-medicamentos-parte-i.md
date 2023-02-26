@@ -1,5 +1,5 @@
 ---
-title: Reações adversas a medicamentos
+title: Revista Cidade de Santos - Reações adversas a medicamentos - Parte 1
 date: 2012-04-02 00:00:00 Z
 categories:
   - Na mídia
