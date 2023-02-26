@@ -1,3 +1,8 @@
+
 tasks:
   - init: npm install && bundle install
     command: npm start
+
+vscode:
+  extensions:
+    - eliostruyf.vscode-front-matter
