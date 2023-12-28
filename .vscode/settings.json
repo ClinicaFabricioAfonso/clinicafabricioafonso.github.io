@@ -9,5 +9,8 @@
       "other": "off"
     },
     "editor.minimap.enabled": false
+  },
+  "[html]": {
+    "editor.formatOnSave": false
   }
 }
