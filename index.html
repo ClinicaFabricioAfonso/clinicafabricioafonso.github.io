@@ -4,14 +4,47 @@ sections:
 - name: blog
 - name: instagram
 - name: links
-  class: hero
+class: hero
 - name: local
 ---
 
 {% for section in page.sections %}
 
-<section class="page-content section-{{ section.name }} {% if section.class %}{{ section.class }}{% endif %}" id="{{ section.name }}">
+<section class="page-content section-{{ section.name }} {% if section.class %}{{ section.class }}{% endif %}"
+  id="{{ section.name }}">
   {% include sections/{{ section.name }}.html %}
 </section>
 
 {% endfor %}
+
+<script>
+  (function () {
+    const date = new Date();
+    const endDate = new Date('2024-01-14');
+    const viewed = localStorage.getItem('aviso-recesso');
+
+    if (date < endDate && !viewed) {
+      const modal = document.createElement('div');
+      modal.setAttribute('data-modal', '');
+      modal.setAttribute('data-grid', 'row center');
+      modal.setAttribute('id', 'aviso-recesso');
+      modal.innerHTML = `
+    <div class="wrapper small" data-modal-content>
+        <p>Prezados pacientes, amigos e fornecedores:</p>
+        <p>A Clínica Fabricio Afonso estará em recesso durante o período de 21 de dezembro à 14 de janeiro de 2024.</p>
+        <p>Desejamos a todos Boas Festas, e um ano novo de repleto de Saúde e Realizações.</p>
+        <div data-grid="end">
+          <a href="#X" 
+            onclick="localStorage.setItem('aviso-recesso', true);" 
+            data-cell="shrink"
+            data-btn>
+            Entendi
+          </a>
+        </div>
+    </div>
+    `;
+      document.body.appendChild(modal);
+      location.hash = '#aviso-recesso';
+    }
+  })();
+</script>

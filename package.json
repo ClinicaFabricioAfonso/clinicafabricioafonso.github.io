@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "jekyll s w"
+    "start": "bundle exec jekyll s w"
   },
   "repository": "https://github.com/ClinicaFabricioAfonso/clinicafabricioafonso.github.io.git",
   "author": "Johnylab <joaobatistacomunic@hotmail.com>",
