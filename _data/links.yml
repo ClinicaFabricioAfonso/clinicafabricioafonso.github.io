@@ -16,9 +16,9 @@ eaaci:
 sbp:
   title: Sociedade Brasileira de Pediatria
   href: http://www.sbp.com.br/
-scs:
-  title: Irmandade da Santa Casa de Misericórdia de Santos
-  href: http://santacasadesantos.org.br/
+# scs:
+#   title: Irmandade da Santa Casa de Misericórdia de Santos
+#   href: http://santacasadesantos.org.br/
 wao:
   title: World Allergy Organization
   href: http://www.worldallergy.org/

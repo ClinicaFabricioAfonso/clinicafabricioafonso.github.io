@@ -33,6 +33,15 @@
                 repeat: no-repeat
                 size: cover
 
+        +media-greater($on-palm)
+            &__list
+                display: grid
+                gap: $spacing-unit / 2
+                grid-template-columns: repeat(auto-fit, minmax(220px, 1fr))
+
+                .card
+                    margin: 0
+
         .card
             height: 180px
 
