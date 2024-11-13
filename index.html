@@ -9,32 +9,34 @@ sections:
 ---
 
 {% for section in page.sections %}
-  <section 
-    class="page-content section-{{ section.name }} {% if section.class %}{{ section.class }}{% endif %}"
-    id="{{ section.name }}">
-    {% include sections/{{ section.name }}.html %}
-  </section>
+<section
+  class="page-content section-{{ section.name }} {% if section.class %}{{ section.class }}{% endif %}"
+  id="{{ section.name }}"
+>
+  {% include sections/{{ section.name }}.html %}
+</section>
 {% endfor %}
 
 <script>
   (function () {
+    const warningId = 'aviso-recesso-2024';
     const date = new Date();
-    const endDate = new Date('2024-01-14');
-    const viewed = localStorage.getItem('aviso-recesso');
+    const endDate = new Date('2025-01-13');
+    const viewed = localStorage.getItem(warningId);
 
     if (date < endDate && !viewed) {
       const modal = document.createElement('div');
       modal.setAttribute('data-modal', '');
       modal.setAttribute('data-grid', 'row center');
-      modal.setAttribute('id', 'aviso-recesso');
+      modal.setAttribute('id', warningId);
       modal.innerHTML = `
     <div class="wrapper small" data-modal-content>
         <p>Prezados pacientes, amigos e fornecedores:</p>
-        <p>A Clínica Fabricio Afonso estará em recesso durante o período de 21 de dezembro à 14 de janeiro de 2024.</p>
-        <p>Desejamos a todos Boas Festas, e um ano novo de repleto de Saúde e Realizações.</p>
+        <p>Informamos que os atendimentos deste ano se encerrarão no dia 20/12/2024, 
+          retornando em 13/01/2025. Até o início do recesso, estaremos atendendo normalmente!</p>
         <div data-grid="end">
           <a href="#X" 
-            onclick="localStorage.setItem('aviso-recesso', true);" 
+            onclick="localStorage.setItem(${warningId}, true);" 
             data-cell="shrink"
             data-btn>
             Entendi
@@ -43,7 +45,7 @@ sections:
     </div>
     `;
       document.body.appendChild(modal);
-      location.hash = '#aviso-recesso';
+      location.hash = `#${warningId}`;
     }
   })();
 </script>
