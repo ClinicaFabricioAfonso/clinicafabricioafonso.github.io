@@ -37,18 +37,6 @@
       "path": "[[workspace]]/_posts"
     }
   ],
-  "frontMatter.taxonomy.tags": [],
-  "frontMatter.taxonomy.categories": [
-    "Alergia alimentar",
-    "Asma e rinite",
-    "Datas comemorativas",
-    "Imunodeficiências",
-    "Na mídia",
-    "Notícias",
-    "Orientações gerais",
-    "Pele",
-    "Reação a medicamentos"
-  ],
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "bundle exec jekyll s w"
 }
